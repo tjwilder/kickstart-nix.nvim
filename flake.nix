@@ -51,6 +51,25 @@
           nil
           stylua
           luajitPackages.luacheck
+	  fzf
+	  vimPlugins.vim-easymotion
+	  vimPlugins.vim-commentary
+
+	  # Texxt objs
+	  vimPlugins.vim-surround
+	  vimPlugins.vim-textobj-user
+	  vimPlugins.vim-textobj-function
+	  vimPlugins.vim-indent-object
+	  vimPlugins.argtextobj-vim
+	  vimPlugins.vim-textobj-column-vim
+	  vimPlugins.vim-textobj-underscore
+	  vimPlugins.vim-tmux
+	  vimPlugins.vim-tmux-navigator
+	  vimPlugins.vim-tmus-focus-events
+
+	  # languages
+	  vimPlugins.omnisharp-extended-lsp-nvim
+	  
         ];
         shellHook = ''
           # symlink the .luarc.json generated in the overlay
