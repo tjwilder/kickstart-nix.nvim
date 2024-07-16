@@ -106,3 +106,6 @@ vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
 
 -- Custom shortcuts
 vim.api.nvim_set_keymap('i', 'jk', '<ESC>', { noremap = true, silent = true });
+vim.api.nvim_set_keymap('x', '<CTRL-/>', '<Plug>Commentary', { noremap = true, silent = true });
+vim.api.nvim_set_keymap('n', '<CTRL-/>', '<Plug>CommentaryLine', { noremap = true, silent = true });
+vim.api.nvim_set_keymap('o', '<CTRL-/>', '<Plug>Commentary', { noremap = true, silent = true });
