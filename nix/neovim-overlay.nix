@@ -56,6 +56,7 @@ with final.pkgs.lib; let
     # telescope-smart-history-nvim # https://github.com/nvim-telescope/telescope-smart-history.nvim
     # RipGrep
     nvim-rg
+    tmux-nvim
 
     # UI
     lualine-nvim # Status line | https://github.com/nvim-lualine/lualine.nvim/
