@@ -110,3 +110,5 @@ vim.api.nvim_set_keymap('i', '<c-/>', '<ESC><Plug>Commentary<ENTER>i', { noremap
 vim.api.nvim_set_keymap('x', '<c-/>', '<Plug>Commentary', { noremap = true, silent = true });
 vim.api.nvim_set_keymap('n', '<c-/>', '<Plug>CommentaryLine', { noremap = true, silent = true });
 vim.api.nvim_set_keymap('o', '<c-/>', '<Plug>Commentary', { noremap = true, silent = true });
+
+-- move around alongside tmux
