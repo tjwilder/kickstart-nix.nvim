@@ -8,4 +8,5 @@ vim.g.did_load_plugins_plugin = true
 
 require('nvim-surround').setup()
 require('which-key').setup()
+vim.g.did_load_tmux_yay = true
 require('tmux').setup()
