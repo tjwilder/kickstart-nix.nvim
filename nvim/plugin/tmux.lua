@@ -1,16 +1,5 @@
-if vim.g.did_load_plugins_plugin then
-  return
-end
-vim.g.did_load_plugins_plugin = true
-
--- many plugins annoyingly require a call to a 'setup' function to be loaded,
--- even with default configs
-
-require('nvim-surround').setup()
-require('which-key').setup()
-vim.g.did_load_tmux_yay = true
-require('tmux').setup({
-  copy_sync = {
+{
+    copy_sync = {
         -- enables copy sync. by default, all registers are synchronized.
         -- to control which registers are synced, see the `sync_*` options.
         enable = true,
@@ -64,4 +53,4 @@ require('tmux').setup({
         -- sets resize steps for y axis
         resize_step_y = 1,
     }
-})
+}
